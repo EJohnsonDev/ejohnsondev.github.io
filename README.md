@@ -25,3 +25,19 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## YAKA - How to create Angular 13 App and deploy to github
+
+Reqs: 
+    Angulr CLI v 13.0.3 (ng v), 
+    github repo name username[ejohnsondev]/github.io
+
+Procedure:
+    1. open terminal in root of github.io folder and run`ng new yakaApp --directory ./`
+    2. open `browsersslistrc`file and comment out `# last 2 Safari major versions`
+    3. open `angular.json` file and change build.options. "outputPath": `docs` (thiss is for GitHub Pages)
+    4. in terminal (root) run `ng build` (see docs folderget built)
+    5. push changes to GitHub
+    6. go to GitHub.com repo page Settings/Pages/Build&Deploy section: build from branch, branch = main, build folder = "/docs" -> then Save
+    7. Wait for page to go live!!!!
