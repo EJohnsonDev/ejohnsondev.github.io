@@ -1,1 +1,15 @@
-@import "~bootstrap-scss/bootstrap.scss"
+// import overrides before bootstrap vars
+@import "assets/my_variables.scss";
+@import "assets/my_overrides.scss";
+@import "~bootstrap-scss/bootstrap.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $primary-font
+}
+
+p {
+    font-family: $secondary-font;
+}
