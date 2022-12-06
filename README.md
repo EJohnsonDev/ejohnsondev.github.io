@@ -34,10 +34,12 @@ Reqs:
     github repo name username[ejohnsondev]/github.io
 
 Procedure:
-    1. open terminal in root of github.io folder and run`ng new yakaApp --directory ./`
-    2. open `browsersslistrc`file and comment out `# last 2 Safari major versions`
-    3. open `angular.json` file and change build.options. "outputPath": `docs` (thiss is for GitHub Pages)
-    4. in terminal (root) run `ng build` (see docs folderget built)
-    5. push changes to GitHub
-    6. go to GitHub.com repo page Settings/Pages/Build&Deploy section: build from branch, branch = main, build folder = "/docs" -> then Save
-    7. Wait for page to go live!!!!
+    <p>1. open terminal in root of github.io folder and run`ng new yakaApp --directory ./`</p>
+    <p>2. open `browsersslistrc`file and comment out `# last 2 Safari major versions`</p>
+    <p>3. open `angular.json` file and change build.options. "outputPath": `docs` (thiss is for GitHub Pages)</p>
+    <p>4. in terminal (root) run `ng build` (see docs folderget built)</p>
+    <p>5. push changes to GitHub</p>
+    <p>6. go to GitHub.com repo page Settings/Pages/Build&Deploy section: build from branch, branch = main, build folder = "/docs" -> then Save</p>
+    <p>7. Wait for page to go live!!!!</p>
+    <p>8. add bootsstrap-scss `npm i bootstrap-scss`</p>
+    <p>9. import into `styles.scss` `@import "~bootstrap-scss/bootstrap.scss"`
