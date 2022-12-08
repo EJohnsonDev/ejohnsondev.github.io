@@ -42,4 +42,5 @@ Procedure:
     <p>6. go to GitHub.com repo page Settings/Pages/Build&Deploy section: build from branch, branch = main, build folder = "/docs" -> then Save</p>
     <p>7. Wait for page to go live!!!!</p>
     <p>8. add bootsstrap-scss `npm i bootstrap-scss`</p>
-    <p>9. import into `styles.scss` `@import "~bootstrap-scss/bootstrap.scss"`
+    <p>9. import into `styles.scss` `@import "~bootstrap-scss/bootstrap.scss"`</p>
+    <p>10. add gsap animations `npm install --save gsap @types/gsap`, then import into component you want to use in</p>
