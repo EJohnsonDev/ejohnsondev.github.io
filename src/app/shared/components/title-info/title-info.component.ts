@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { gsap } from 'gsap';
 @Component({
   selector: 'app-title-info',
   templateUrl: './title-info.component.html',
@@ -10,6 +10,7 @@ export class TitleInfoComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    gsap.from(".easeDown", {stagger: .275, y: -20, opacity: 0, duration: .3});
   }
 
 }
