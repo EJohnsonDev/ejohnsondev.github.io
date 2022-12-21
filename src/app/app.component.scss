@@ -6,6 +6,10 @@
     width: 100vw;
     padding: 2rem;
 
+    &.mobile {
+        height: 95vh;
+    }
+
     .contents {
         height: 100%;
         min-height: 100%;
