@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { gsap } from 'gsap';
+import { bio } from '../../entities/bio-info';
+
 @Component({
   selector: 'app-title-info',
   templateUrl: './title-info.component.html',

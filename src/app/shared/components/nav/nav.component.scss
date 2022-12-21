@@ -1,0 +1,13 @@
+.nav-container {
+  .active {
+    color: pink;
+
+    &::before {
+      content: "➠";
+      font-size: 15px;
+      color: pink;
+      line-height: 1.7;
+      padding-right: 10px;
+    }
+  }
+}
