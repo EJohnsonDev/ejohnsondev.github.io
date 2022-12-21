@@ -1,0 +1,15 @@
+.bio-container {
+    width: 100%;
+
+    p {
+        color: white;
+    }
+}
+
+
+
+@media only screen and (min-width: 600px) {
+    .bio-container {
+        width: 10rem
+    }
+}
