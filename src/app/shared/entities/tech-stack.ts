@@ -13,7 +13,7 @@ export const techStack: TechStackInfo[] = [
   },
   {
     name: 'Javascript',
-    img: 'locaiton of image',
+    img: 'assets/icons/js.svg',
     side: ServerSide.Front,
   },
   {

@@ -1,0 +1,33 @@
+@import "../../../../assets/my_variables.scss";
+
+
+.about-container {
+    width: 100%;
+    color: gray;
+
+    .title {
+        font-size: 2rem;
+        font-family: $primary-font;
+    }
+
+    p, span {
+        font-family: $third-font;
+        margin-bottom: 1rem !important;
+    }
+
+    span {
+        color: aqua;
+    }
+
+    
+}
+
+@media only screen and (min-width: 600px) {
+    .about-container {
+       width: 50%;
+       margin-left: auto;
+
+
+    }
+
+}

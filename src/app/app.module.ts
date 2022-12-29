@@ -8,6 +8,7 @@ import { BioComponent } from './shared/components/bio/bio.component';
 import { StackComponent } from './shared/components/stack/stack.component';
 import { ContactComponent } from './shared/components/contact/contact.component';
 import { NavComponent } from './shared/components/nav/nav.component';
+import { AboutComponent } from './shared/components/about/about.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { NavComponent } from './shared/components/nav/nav.component';
     StackComponent,
     ContactComponent,
     NavComponent,
+    AboutComponent,
   ],
   imports: [
     BrowserModule,
