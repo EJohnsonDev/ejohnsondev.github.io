@@ -1,0 +1,53 @@
+@import "../../../../assets/my_variables.scss";
+
+
+.stack-container {
+    width: 100%;
+    color: gray;
+
+    .title {
+        font-size: 2rem;
+        font-family: $primary-font;
+    }
+
+    p, span {
+        font-family: $third-font;
+        margin-bottom: 1rem !important;
+    }
+
+    span {
+        color: aqua;
+    }
+
+    ul {
+       &, li {
+        display: flex;
+       }
+       flex-wrap: wrap;
+
+       li {
+        padding-right: 1.2rem;
+        align-items: center;
+
+        &::before {
+            content: "\2713";
+            position: relative;
+            left: -.2rem;
+            color: pink;
+            font-size: .6rem;
+        }
+       }
+    }
+
+    
+}
+
+@media only screen and (min-width: 600px) {
+    .stack-container {
+       width: 50vw;
+       margin-left: auto;
+
+
+    }
+
+}
